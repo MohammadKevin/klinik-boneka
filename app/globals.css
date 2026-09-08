@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #FBF9F5;
+    --foreground: #211E1C;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif), Georgia, serif;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono), monospace;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+html {
+  scroll-behavior: smooth;
 }
+
+/* Tactile Craft & Sewing Patterns */
+.bg-stitch-pattern {
+  background-image: radial-gradient(#211E1C 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+  opacity: 0.04;
+}
+
+.bg-paper-grain {
+  background-color: #FBF9F5;
+  background-image: 
+    radial-gradient(rgba(33, 30, 28, 0.03) 1px, transparent 0),
+    radial-gradient(rgba(217, 107, 82, 0.02) 1px, transparent 0);
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+}
+
+.border-stitch {
+  border-style: dashed;
+  border-color: rgba(33, 30, 28, 0.18);
+}
+
+.ticket-notch-left {
+  mask-image: radial-gradient(circle at 0% 50%, transparent 8px, black 8.5px);
+}
+
+.ticket-notch-right {
+  mask-image: radial-gradient(circle at 100% 50%, transparent 8px, black 8.5px);
+}
+
+/* Subtle Tape Sticker Effect */
+.craft-tape {
+  background: rgba(235, 230, 221, 0.75);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  border-left: 2px dashed rgba(33, 30, 28, 0.15);
+  border-right: 2px dashed rgba(33, 30, 28, 0.15);
+}
+
