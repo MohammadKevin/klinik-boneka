@@ -12,19 +12,19 @@
 
 ---
 
-## 📌 Overview
+## Overview
 A specialized service booking platform for plush toy restoration, doll cleaning, re-stuffing, and customized cosmetic repairs.
 
 ---
 
-## ✨ Key Features
+## Key Features
 - Repair service catalog with before/after transformation showcase
 - Online consultation booking and custom quote submission
 - Integrated database for service tracking and customer records
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Framework**: Next.js
 - **Database**: Supabase / MySQL
 - **Language**: TypeScript
@@ -32,7 +32,7 @@ A specialized service booking platform for plush toy restoration, doll cleaning,
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```text
 klinik-boneka/
 ├── app/
@@ -42,7 +42,7 @@ klinik-boneka/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the required runtimes and tools installed on your machine:
@@ -59,7 +59,7 @@ npm run dev
 
 ---
 
-## 👤 Author
+## Author
 **Mohammad Kevin Arif Rudianto**
 - **GitHub:** [@MohammadKevin](https://github.com/MohammadKevin)
 - **Portfolio:** [portfolio-mohammadkevin.vercel.app](https://portfolio-mohammadkevin.vercel.app)
@@ -68,9 +68,9 @@ npm run dev
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 <div align="center">
-⭐️ If you found this repository useful, please consider giving it a star!
+If you found this repository useful, please consider giving it a star!
 </div>
