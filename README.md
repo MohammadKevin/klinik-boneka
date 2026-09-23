@@ -18,9 +18,9 @@ A specialized service booking platform for plush toy restoration, doll cleaning,
 ---
 
 ## ✨ Key Features
-- ⚡ **Repair service catalog with before/after transformation showcase**: Repair service catalog with before/after transformation showcase
-- ⚡ **Online consultation booking and custom quote submission**: Online consultation booking and custom quote submission
-- ⚡ **Integrated database for service tracking and customer records**: Integrated database for service tracking and customer records
+- Repair service catalog with before/after transformation showcase
+- Online consultation booking and custom quote submission
+- Integrated database for service tracking and customer records
 
 ---
 
